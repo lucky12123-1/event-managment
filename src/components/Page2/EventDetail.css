@@ -1,0 +1,92 @@
+/* Event Detail Container */
+.event-detail {
+    padding: 40px 80px;
+  }
+  
+  /* Event Banner */
+  .event-banner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .event-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Back Button */
+  .back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Overlay for Event Info */
+  .event-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    max-width: 60%;
+  }
+  
+  .event-info h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .event-info p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Description Section */
+  .description {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  /* Date & Time Section */
+  .date-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .date-time .label {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .date-time .value {
+    font-size: 18px;
+    color: #6A0DAD;
+    font-weight: bold;
+  }
+  
+  /* Social Media Share Section */
+  .social-share {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .social-share img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
